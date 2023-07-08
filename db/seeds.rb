@@ -7,7 +7,7 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 
-30.times do |i|
+20.times do |i|
     @tweets = Tweet.create(description: "Descripcion: #{i}",
    username: "usuario Nº#{i} ")
     print @colaborators
